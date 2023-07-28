@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="ml-container">
+	<br>
+	<br>
+	<form action="{{ url_for('predict')}}" method="POST">
+	<p class="font-weight-bolder">Enter Your Message Here</p>
+	<div class="form-group shadow-textarea">
+		<textarea name="message" class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" cols="30" placeholder="Write something here..."></textarea>
+	  </div>
+	<br/>
+	<button type="submit" class="btn btn-primary" value="predict" >Predict</button>
+	</form>
+	
+</div>
+{% endblock content %}
