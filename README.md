@@ -60,4 +60,4 @@ Usage
 
 To train the model, run the following command:
 
-# Arjunram-pal-sentimental-analysis-on-movies-review-using-BERT
+# Sentimental-analysis-on-movies-review-using-BERT
